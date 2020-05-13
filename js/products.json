@@ -1,0 +1,921 @@
+data = [
+  {
+    "id": "ethicon",
+    "label": "Ethicon",
+    "portada": "ethicon-portada.jpg",
+    "logo": "logo-ethicon.jpg",
+    "resumen": "ethicon.jpg",
+    "catalogo": [
+      {
+        "id": "equipamiento_video",
+        "label": "Equipamiento de Video",
+        "icono": "equipo.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "video_camara",
+              "label": "Camara",
+              "imagenes": [
+              ],
+              "productos": [
+                {
+                  "codigo": "242302*",
+                  "descripcion": "Camera Control System with Light Source (ROW)",
+                  "precio": 00
+                },
+                {
+                  "codigo": "242401",
+                  "descripcion": "Camera Head with C-mount, Autoclavable",
+                  "precio": 00
+                }
+              ]
+            },
+            {
+              "id": "evo_trat",
+              "label": "Evo tratamiento",
+              "imagenes": [
+              ],
+              "productos": [
+                {
+                  "codigo": "242325",
+                  "descripcion": "Image Management: Photo and Video Capture System with Wireless Adapter",
+                  "precio": 00
+                }
+              ]
+            },
+            {
+              "id": "cable",
+              "label": "Cables de luz",
+              "imagenes": [
+              ],
+              "productos": [
+                {
+                  "codigo": "242390",
+                  "descripcion": "Light Guide, UNIV, 5.0MM X 3.0M ",
+                  "precio": 00
+                },
+                {
+                  "codigo": "242387",
+                  "descripcion": "Light Guide, OLYM-ACMI, 5.0MM X 3.0M",
+                  "precio": 00
+                }
+              ]
+            },
+            {
+              "id": "cabezal",
+              "label": "Cabezal",
+              "imagenes": [
+              ],
+              "productos": [
+                {
+                  "codigo": "242436",
+                  "descripcion": "Coupler, Zoom, C-Mount, Autoclavable",
+                  "precio": 00
+                }
+              ]
+            }
+          ]
+        }
+      },  
+      {
+        "id": "laparoscopes",
+        "label": "Laparoscopes",
+        "icono": "laparoscopes.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "lapa",
+              "label": "Laparoscopes",
+              "imagenes": [
+                "laparoscopio.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242632",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 0 deg, 300mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242633",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 30 deg, 300mm ",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242634",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 45 deg, 300mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242635",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 0 deg, 330mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242636",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 30 deg, 330mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242637",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 45 deg, 330mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242638",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 0 deg, 430mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242639",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 30 deg, 430mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242640",
+                  "descripcion": "HD Laparoscope, Eye Piece, 5.5mm, 45 deg, 430mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242652",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 0 deg, 450mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242653",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 30 deg, 450mm",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242654",
+                  "descripcion": "HD Laparoscope, Eye Piece, 10mm, 45 deg, 450mm",
+                  "precio": 0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "endopath",
+        "label": "Endopath XCEL Trocars",
+        "icono": "endopath.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "endo",
+              "label": "Endopath XCEL Trocars",
+              "imagenes": [
+                "endopathxcel.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "2B5ST",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 75mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B5LT",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 100mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B5XT",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 150mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B12LT",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 100mm length ",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B12XT",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 150mm length ",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2H12LP",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 100mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2D5ST",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 75mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2D5LT",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 100mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B12LT",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 100mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2B12XT",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 150mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2CB5ST",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 75mm length",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2CB5LT",
+                  "descripcion": "Stability Sleeve, 5mm diameter, 100mm length ",
+                  "precio": 0
+                },
+                {
+                  "codigo": "2CB12LT",
+                  "descripcion": "Stability Sleeve, 12mm diameter, 100mm length",
+                  "precio": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "depuy",
+    "label": "Depuy",
+    "portada": "depuy-portada.jpg",
+    "logo": "logo-depuy.jpg",
+    "resumen": "depuy.jpg",
+    "catalogo": [
+      {
+        "id": "monitores_acc",
+        "label": "Monitores y Accesorios",
+        "icono": "monitor.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "monitores",
+              "label": "Monitores",
+              "imagenes": [
+                "radiance-ultra.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242670",
+                  "descripcion": "Medical Display, NDS EndoVue® 32\" HD",
+                  "precio": 6500
+                },
+                {
+                  "codigo": "242671",
+                  "descripcion": "Medical Display, NDS Radiance Ultra 32\" HD",
+                  "precio": 10000
+                },
+                {
+                  "codigo": "242672",
+                  "descripcion": "Medical Display, NDS Radiance Ultra 32\" 4K/UHD ",
+                  "precio": 15000
+                },
+                {
+                  "codigo": "242356*",
+                  "descripcion": "ZeroWire® DUO, Wireless HD-Video Transmission System",
+                  "precio": 6000
+                },
+                {
+                  "codigo": "242357",
+                  "descripcion": "ZeroWire® DUO Accessory Kit",
+                  "precio": 1000
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "cabezales_cables",
+        "label": "Cabezales y Cables de luz",
+        "icono": "cable.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "cabezal_camara",
+              "label": "Cabezal para cámara",
+              "imagenes": [
+                "cabezales.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242311",
+                  "descripcion": "Coupler, FFL, C-Mount, 24mm, Cold Sterilized",
+                  "precio": 1740
+                },
+                {
+                  "codigo": "242316",
+                  "descripcion": "Coupler, FFL, C-Mount, 20mm, Cold Sterilized",
+                  "precio": 1740
+                },
+                {
+                  "codigo": "242312",
+                  "descripcion": "Coupler, FFL, C-Mount, 17mm, Cold Sterilized",
+                  "precio": 1740
+                },
+                {
+                  "codigo": "242436",
+                  "descripcion": "Coupler, Zoom, C-Mount, Autoclavable",
+                  "precio": 6924
+                }
+              ]
+            },
+            {
+              "id": "cables_luz",
+              "label": "Cables de luz",
+              "imagenes": [
+                "cables-de-luz.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242386",
+                  "descripcion": "Light Guide, OLYM-ACMI, 3.5MM X 3.0M",
+                  "precio": 715
+                },
+                {
+                  "codigo": "242389",
+                  "descripcion": "Light Guide, UNIV, 3.5MM X 3.0M",
+                  "precio": 702
+                },
+                {
+                  "codigo": "242390",
+                  "descripcion": "Light Guide, UNIV, 5.0MM X 3.0M",
+                  "precio": 738
+                },
+                {
+                  "codigo": "242387",
+                  "descripcion": "Light Guide, OLYM-ACMI, 5.0MM X 3.0M",
+                  "precio": 768
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "bandeja",
+        "label": "Bandejas de Esterilización",
+        "icono": "bandeja.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "bandejas_esterilizacion",
+              "label": "Bandejas de Esterilización",
+              "imagenes": [
+                "bandejas-estirilizantes.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242335",
+                  "descripcion": "Visualization Tray (Square: 11.3\"L x 11.3\"W x 2.2\"T)",
+                  "precio": 400
+                },
+                {
+                  "codigo": "242336",
+                  "descripcion": "Visualization Tray Lid (Square)",
+                  "precio": 200
+                },
+                {
+                  "codigo": "242337",
+                  "descripcion": "Visualization Scope Tray (Rectangular: 19.8\"L x 9.4\"W x 2.2\"T)",
+                  "precio": 400
+                },
+                {
+                  "codigo": "242338*",
+                  "descripcion": "Visualization Tray Lid (Rectangular)",
+                  "precio": 200
+                },
+                {
+                  "codigo": "242339",
+                  "descripcion": "Visualization Tray (Rectangular: 19.8\"L x 9.4\"W x 2.2\"T)",
+                  "precio": 400
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "equipamiento_video",
+        "label": "Equipamiento de Video",
+        "icono": "equipo.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "camara",
+              "label": "Camara",
+              "imagenes": [
+                "camara.png",
+                "camara2.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242302*",
+                  "descripcion": "Camera Control System with Light Source (ROW) ",
+                  "precio": 24000
+                },
+                {
+                  "codigo": "242401",
+                  "descripcion": "Camera Head with C-mount, Autoclavable",
+                  "precio": 11000
+                }
+              ]
+            },
+            {
+              "id": "carro_torre",
+              "label": "Torre",
+              "imagenes": [
+                "torre.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242283**",
+                  "descripcion": "Video Cart with 230V Integrated Power Source",
+                  "precio": 10000
+                }
+              ]
+            },
+            {
+              "id": "brazos",
+              "label": "Brazos",
+              "imagenes": [
+                "brazos.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242284",
+                  "descripcion": "Primary Multi-directional Display Mount ",
+                  "precio": 2000
+                },
+                {
+                  "codigo": "242518",
+                  "descripcion": "Secondary Multi-directional Display Mount ",
+                  "precio": 800
+                },
+                {
+                  "codigo": "242519***",
+                  "descripcion": "Rotatable Tablet Arm ",
+                  "precio": 800
+                },
+                {
+                  "codigo": "242285",
+                  "descripcion": "Secondary Display Cart",
+                  "precio": 2800
+                }
+              ]
+            },
+            {
+              "id": "teclado",
+              "label": "Teclado",
+              "imagenes": [
+                "teclado.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242323",
+                  "descripcion": "Sony BWMD-KEY1 USB Keyboard (English)",
+                  "precio": 344
+                }
+              ]
+            },
+            {
+              "id": "evo_tratamiento",
+              "label": "Evo tratamiento",
+              "imagenes": [
+                "evo-tratamiento.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242326",
+                  "descripcion": "Image Management: Photo and Video Capture System with Wireless Adapter ",
+                  "precio": 8600
+                }
+              ]
+            },
+            {
+              "id": "impresion",
+              "label": "Impresión",
+              "imagenes": [
+                "printer-front.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242370",
+                  "descripcion": "Sony UP-DR80MD Printer ",
+                  "precio": 3000
+                },
+                {
+                  "codigo": "242349",
+                  "descripcion": "Sony A4 Ink & Paper RF UPC-R80MD ",
+                  "precio": 1300
+                },
+                {
+                  "codigo": "242371",
+                  "descripcion": "Sony 8.5 x 11 Ink & Paper RF UPC-R81MD",
+                  "precio": 1300
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "artroscopios",
+        "label": "Artroscopios, Vainas y Obturadores",
+        "icono": "artroscopio.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "mitek",
+              "label": "MITEK™ Lock",
+              "imagenes": [
+                "artroscopios.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "242017",
+                  "descripcion": "HD Arthroscope, 4.0mm, 0 deg, 167mm",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "242033",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242024",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242258",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242018",
+                  "descripcion": "HD Arthroscope, 4.0mm, 30 deg, 167mm",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "242034",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242025",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242258",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242019",
+                  "descripcion": "HD Arthroscope, 4.0mm, 45 deg, 167mm",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "242035",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242026",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242258",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242021",
+                  "descripcion": "HD Arthroscope, 4.0mm, 70 deg, 167mm",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "242036",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242027",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242258",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242022",
+                  "descripcion": "HD Arthroscope, 4.0mm, 30 deg, 270mm",
+                  "precio": 3450
+                },
+                {
+                  "codigo": "242037",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242028",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242254",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242023",
+                  "descripcion": "HD Arthroscope, 4.0mm, 70 deg, 270mm",
+                  "precio": 3450
+                },
+                {
+                  "codigo": "242038",
+                  "descripcion": "Vaina: Single Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242029",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 450
+                },
+                {
+                  "codigo": "242254",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                }
+              ]
+            },
+            {
+              "id": "storz",
+              "label": "STORZ Style Lock",
+              "imagenes": [
+              ],
+              "productos": [
+                {
+                  "codigo": "242047",
+                  "descripcion": "HD Arthroscope, 1.9mm, 0 deg, 60 mm",
+                  "precio": 4000
+                },
+                {
+                  "codigo": "242561",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242523",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242556",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242048",
+                  "descripcion": "HD Arthroscope, 1.9mm, 30 deg, 60 mm ",
+                  "precio": 4000
+                },
+                {
+                  "codigo": "242562",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242524",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242556",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242055",
+                  "descripcion": "HD Arthroscope, 2.7mm, 0 deg, 75 mm ",
+                  "precio": 4000
+                },
+                {
+                  "codigo": "242565",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242528",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242560",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242056",
+                  "descripcion": "HD Arthroscope, 2.7mm, 30 deg, 75 mm ",
+                  "precio": 4000
+                },
+                {
+                  "codigo": "242566",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242529",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242560",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242058",
+                  "descripcion": "HD Arthroscope, 2.7mm, 70 deg, 75 mm ",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "242567",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242540",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242560",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242005",
+                  "descripcion": "HD Arthroscope, 4.0mm, 0 deg, 175 mm ",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "",
+                  "descripcion": "",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242547",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242585",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242006",
+                  "descripcion": "HD Arthroscope, 4.0mm, 30 deg, 175 mm ",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "",
+                  "descripcion": "",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242548",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242585",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242008",
+                  "descripcion": "HD Arthroscope, 4.0mm, 45 deg, 175 mm ",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "",
+                  "descripcion": "",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242550",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242585",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                },
+                {
+                  "codigo": "242009",
+                  "descripcion": "HD Arthroscope, 4.0mm, 70 deg, 175 mm ",
+                  "precio": 3200
+                },
+                {
+                  "codigo": "",
+                  "descripcion": "",
+                  "precio": 0
+                },
+                {
+                  "codigo": "242551",
+                  "descripcion": "Vaina: DUAL Stopcock",
+                  "precio": 470
+                },
+                {
+                  "codigo": "242585",
+                  "descripcion": "Obturador",
+                  "precio": 75
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "bomba",
+        "label": "Bomba artroscopia FMS VUE II",
+        "icono": "bomba.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "bomba_artro",
+              "label": "Bomba de artroscopia FMS VUE II",
+              "imagenes": [
+                "bomba-fms-vue.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "3213",
+                  "descripcion": "FMS VUE II Bomba de Artroscopia",
+                  "precio": 8000
+                },
+                {
+                  "codigo": "283573",
+                  "descripcion": "Pedal para FMS VUE",
+                  "precio": 2000
+                },
+                {
+                  "codigo": "283512",
+                  "descripcion": "Pieza de mano MICROTORNADO",
+                  "precio": 6000
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "vaporizador",
+        "label": "Vaporizador VAPR VUE",
+        "icono": "vaporizador.png",
+        "datos": {
+          "subcategorias": [
+            {
+              "id": "vaporizador_varp",
+              "label": "Vaporizador VAPR VUE",
+              "imagenes": [
+                "vapr.png"
+              ],
+              "productos": [
+                {
+                  "codigo": "225024",
+                  "descripcion": "Generador VAPR VUE",
+                  "precio": 5000
+                },
+                {
+                  "codigo": "227214",
+                  "descripcion": "Pedal inalambrico VAPR VU",
+                  "precio": 1000
+                },
+                {
+                  "codigo": "225002",
+                  "descripcion": "Pieza de Mano",
+                  "precio": 470
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+];
