@@ -1,4 +1,4 @@
-[pablomaurig.com](https://pablomaurig.com)
+[pablomaurig.github.io/purevue/](https://pablomaurig.github.io/purevue/)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pablomaurig/purevue/ecf87610d93f59e0dd300d326eb6ff24fef120b3/javascript-logo.svg" alt="JS logo" width="80" height="80">
