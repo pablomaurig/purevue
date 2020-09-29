@@ -1,87 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" type="image/png" href="images/favicon.png" />
-	<!-- meta -->
-	<title>PUREVUE</title>
-	<meta name="description" content="">
-	<meta name="robots" content="index, follow">
-	<!-- end meta -->
-	<style>
-		/* estilos primer pantalla */
-	</style>
-	<script type="text/javascript" src="js/products.json"></script>
-</head>
-<body>
-<header>
-	<div class="brand"><img class="img-brand" src="images/pure-vue.png" width="439" height="21"></div>
-	<div class="configurador hide" id="configurador">
-		<img class="img-conf" src="images/configurador.png"><span>Configurador</span>
-	</div>
-</header>
-<main>
-	<div class="principal" id="principal">
-	</div>
-	<div class="container-nav">
-		<div id=logobrand class="selected-brand"></div>
-		<nav class="nav-bar" id="navbar"></nav>
-	</div>
-	<div class="container-conf">
-		<div class="resumen">
-			<div class="reshead">
-				<h2 class="best">Resumen</h2>
-				<div class="reload">
-					<span>Reiniciar</span>
-					<img src="images/reload.png" alt="Reiniciar" width="30" height="30">
-				</div>
-			</div>
-			<div class="reslist" id="conflista">
-				<div class="itemlist">
-					<h3>Pantallas y Accesorios</h3>
-					<div class="prodel">· Medical Display, NDS EndoVue® 32" HD</div>
-					<div class="prodel">· ZeroWire® DUO, Wireless HD-Video Transmission System</div>
-				</div>
-				<div class="itemlist">
-					<h3>Pantallas y Accesorios</h3>
-					<div class="prodel">· Medical Display, NDS EndoVue® 32" HD</div>
-					<div class="prodel">· ZeroWire® DUO, Wireless HD-Video Transmission System</div>
-				</div>
-				<div class="itemlist">
-					<h3>Pantallas y Accesorios</h3>
-					<div class="prodel">· Medical Display, NDS EndoVue® 32" HD</div>
-					<div class="prodel">· ZeroWire® DUO, Wireless HD-Video Transmission System</div>
-				</div>
-				<div class="itemlist">
-					<h3>EQUIPOS DE VIDEO</h3>
-					<div class="prodel">· Video Cart with 230V Integrated Power Source</div>
-					<div class="prodel">· Primary Multi-directional Display Mount</div>
-					<div class="prodel">· Sony BWMD-KEY1 USB Keyboard (English)</div>
-					<div class="prodel">· Image Management: Photo and Video Capture System with Wireless Adapter</div>
-					<div class="prodel">· Sony UP-DR80MD Printer</div>
-				</div>
-			</div>
-			<div class="resbottom">
-				<h2 class="best">Precio del producto:</h2>
-				<div class="precio" id="precio-total">000,000&euro;</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-tabs">
-		<section class="row" id="prodrow"></section>
-	</div>
-</main>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="css/debuy.css">
-<script type="text/javascript" src="js/slider.min.js"></script>
-<script type="text/javascript" src="js/modal.min.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
-<script>
-
-
-
-</script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purevue app for ipad developed un javascript</title>
+    <link rel="stylesheet" href="./devices.min.css" />
+    <style>
+      *{padding: 0;margin:0;}
+      html{ height:100%}
+      body{height:100%;height: -webkit-fill-available;min-height:1074px}
+    </style>
+  </head>
+  <body style="display: flex;justify-content: center;align-items: center;height: 100%;">
+    <div class="marvel-device ipad silver landscape" style="width: 1366px; height: 1024px;">
+      <div class="camera"></div>
+      <div class="screen" style="width: 1366px; height: 1024px;">
+       <iframe src="./app/index.html" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+      <div class="home"></div>
+  </body>
 </html>
